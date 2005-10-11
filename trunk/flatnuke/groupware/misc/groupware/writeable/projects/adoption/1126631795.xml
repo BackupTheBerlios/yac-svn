@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding="ISO-8859-1"?>
+
+<project> 
+ <name>XML Class</name> 
+ <appType>altro...</appType> 
+ <intro>This class provide a simply method to interface in read/write mode with XML file.
+ Is very usefoul because doesn\'t need any library.</intro> 
+ <main>Developed by Gigasoft.
+ 
+ http://gigasoft.altervista.org</main>
+ <by>root</by>
+</project>
