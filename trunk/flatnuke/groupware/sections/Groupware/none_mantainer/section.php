@@ -109,10 +109,7 @@ if(!isset($_POST['submitted']) AND $flag){
 	make_aviable( string ProjectID, string Type) function;
 	*/
 	
-	# pick up project informations
-	
-	echo "<pre>";
-	
+	# pick up project informations	
 	$dir = "misc/groupware/writeable/projects/".$_GET['type']."/";
 	
 	$file = $_GET['id'].".xml";
@@ -299,8 +296,7 @@ if(!isset($_POST['submitted']) AND $flag){
 	# set the Path of the file
 	mkdir("misc/groupware/writeable/projects/shared/".$_GET['id']."/appointments/");
 
-	echo $xmlClass->contents;
-	
-	echo "</pre>";
+	# print congratulation message
+	echo "<br>Da ora, potrai iniziare ad amministrare il tuo progetto.<br>Per fare ciò dirigiti immediatamente alla sua pagina e entra nel menù di amministrazione.";
 }
 ?>

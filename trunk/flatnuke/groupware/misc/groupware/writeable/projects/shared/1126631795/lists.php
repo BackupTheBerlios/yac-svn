@@ -13,13 +13,13 @@ http://gigasoft.altervista.org
   <admin:nest>
    <message>
     <message:user>Site Admin</message:user>
-    <message:time>Thu, 15 Sep 2005 19:57:01</message:time>
+    <message:time>Sun, 16 Oct 2005 16:27:06</message:time>
     <message:text>Hi, welcome to Admin Nest list. Here you can leave messages that only mantainers can view.</message:text>
    </message>
   </admin:nest>
   <developers:nest>
    <message>
     <message:user>Site Admin</message:user>
-    <message:time>Thu, 15 Sep 2005 19:57:01</message:time>
+    <message:time>Sun, 16 Oct 2005 16:27:06</message:time>
     <message:text>Hi, welcome to Admin Nest list. Here you can leave messages that only mantainers and developers can view.</message:text>
    </message>

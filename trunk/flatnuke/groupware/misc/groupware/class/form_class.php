@@ -22,7 +22,7 @@ class form{
 
 var $useBold = true;
 
-var $usingTable = true;
+var $usingTable = false;
 
 	function openForm($to, $usingTable = true, $method = "POST", $name = "", $target = ""){
 		echo "<form action=\"".$to."\" method=\"".$method."\" target=\"".$target."\" name=\"".$name."\">\n";
@@ -52,7 +52,7 @@ var $usingTable = true;
 		#$this->closeTR();
 	}
 
-	function textarea($name, $text, $value = "", $rows = 25, $cols = 80){
+	function textarea($name, $text="", $value = "", $rows = 25, $cols = 80){
 		$this->__openTR($text);
 		echo "<textarea name = \"".$name."\" rows = \"".$rows."\" cols = \"".$cols."\">".$value."</textarea>";
 		$this->__closeTR();
@@ -76,11 +76,11 @@ var $usingTable = true;
 		$this->__closeTR();
 	}
 
-	function submit($text, $withReset = false, $value = "", $name = "submit"){
+	function submit($text="", $withReset = false, $value = "", $name = "submit"){
 		$this->__openTR($text);
 		echo "<input type=\"submit\" name = \"".$name."\" value = \"".$value."\">";
 		if($withReset)
-			echo "<input type=\"reset\" name=\"reset\">";
+			echo "&nbsp;&nbsp;&nbsp;<input type=\"reset\" name=\"reset\">";
 		$this->__closeTR();
 	}
 

@@ -42,7 +42,7 @@ $groupwareConfig->is_active();
 echo "<h3>Introduzione alla sezione</h3>";
 
 # print welcome message
-echo $groupware_general->welcome("Benvenuto nel sistema gestionale");
-
+#echo $groupware_general->welcome("Benvenuto all'interno di YAC.");
+$groupware_general->print_modable("misc/groupware/documents/main.html");
 
 ?>
