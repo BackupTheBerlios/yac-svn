@@ -12,8 +12,17 @@ class groupware_general{
 		return "$text<br>";
 	}
 	
+	function parse_modable($text){
+		$text = ereg_replace("{YAC_SECTION}", GROUPWARE_MOD_PATH, stripslashes($text));
+		$text =ereg_replace("%7BYAC_SECTION%7D",  GROUPWARE_MOD_PATH, $text);
+		$text = ereg_replace("%7E", "~", $text);
+		
+		return $text;
+	}
+	
 	function print_modable($file){
-		echo "<br>".implode("", file($file))."<br><br><a href=\"index.php?mod=".GROUPWARE_MOD_PATH."none_admin&amp;file=edit_html.php&amp;what=".$file."\" title=\"Edit ".$file."\">Edit</a>";
+		$text = $this->parse_modable(implode("", file($file)));
+		echo "<br>".$text."<br><br><a href=\"index.php?mod=".GROUPWARE_MOD_PATH."none_admin&amp;file=edit_html.php&amp;what=".$file."\" title=\"Edit ".$file."\">Edit</a>";
 	}
 }
 
