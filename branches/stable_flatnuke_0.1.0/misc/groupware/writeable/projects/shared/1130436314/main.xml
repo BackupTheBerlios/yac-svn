@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding="UTF-8"?>
+
+<!-- 
+This XML file is maked using XML Class.
+XML Class is developed by Giovanni Piller Cottrer
+<giovanni.piller@gmail.com for Flatnuke project.
+To help me developing this class, you can visit my site:
+http://gigasoft.altervista.org
+ -->
+
+<main>
+ <main>
+  <name>erferfer</name>
+  <motd>frfefe</motd>
+  <description>fwerfeqwfew</description>
+  <ChangeLog>Change Log for erferfer
+  
+  Last Update Fri, 04 Nov 2005 21:47:59 root
+  </ChangeLog>
+  <ToDo>Modify me! (ToDo list)</ToDo>
+ Created on Fri, 04 Nov 2005 21:47:59 by root
+ </main>
+</main>

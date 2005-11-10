@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding="UTF-8"?>
+
+<!-- 
+This XML file is maked using XML Class.
+XML Class is developed by Giovanni Piller Cottrer
+<giovanni.piller@gmail.com for Flatnuke project.
+To help me developing this class, you can visit my site:
+http://gigasoft.altervista.org
+ -->
+
+<main>
+ <name>XML Class</name>
+ <motd>This class provide a simply method to interface in read/write mode with XML file.
+  Is very usefoul because doesn\'t need any library.</motd>
+ <description>Developed by Gigasoft.
+  
+  http://gigasoft.altervista.org</description>
+ <MainBlock>This is only a test text to view results of webpages parsing. Modify me!</MainBlock>
+ <ChangeLog>Change Log for XML Class
+ 
+ Last Update Sat, 05 Nov 2005 15:16:46 root
+ </ChangeLog>
+ <ToDo>Modify me! (ToDo list)</ToDo>
+Created on Sat, 05 Nov 2005 15:16:46 by root
+</main>
